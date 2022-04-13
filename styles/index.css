@@ -1,0 +1,61 @@
+* {}
+
+body,
+html {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(147deg, rgba(255, 255, 255, 1) 45%, rgba(30, 101, 140, 1) 100%);
+}
+
+@media (max-width: 900px) {
+    .conDaniel,
+    .preparador {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .preparador {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.aprueba {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.primeraLinea {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.punto {
+    color: #1D658C;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conDaniel {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.danielGeohistoria {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}

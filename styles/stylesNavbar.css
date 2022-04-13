@@ -1,0 +1,66 @@
+/* GENERAL */
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+
+/* NAVBAR */
+
+.navBar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.navBar>ul {
+    display: flex;
+}
+
+.navBar>ul>li {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.navBar>ul>li>a {
+    transition: all 0.5s;
+}
+
+.navBar>ul>li>a:hover {
+    color: #1D658C;
+    transition: all 0.5s;
+}
+
+.navBar>img {
+    height: 70px;
+}
+
+.navBar>p {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.contacto {
+    display: flex;
+    position: fixed;
+    right: 50px;
+    align-items: center;
+    border-radius: 15px;
+    height: 45px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 13.5px;
+    background-color: #EBD672;
+}
+
+.contacto:hover {}
