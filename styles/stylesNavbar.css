@@ -16,7 +16,10 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+}
+
+.imgTitulo {
+    display: flex;
 }
 
 .navBar>ul {
@@ -50,10 +53,17 @@ a {
     border-bottom: 1px solid;
 }
 
+.navBar>div>a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contacto {
     display: flex;
     position: fixed;
-    right: 50px;
     align-items: center;
     border-radius: 15px;
     height: 45px;
@@ -63,4 +73,53 @@ a {
     background-color: #EBD672;
 }
 
-.contacto:hover {}
+
+/* el grande */
+
+@media (min-width: 901px) {
+    .contacto {
+        right: 50px;
+    }
+    .navBar {
+        margin-left: 50px;
+    }
+}
+
+
+/* el pequeño */
+
+@media (max-width: 900px) {
+    .navBar {
+        flex-direction: column;
+        align-items: center;
+        white-space: nowrap;
+        font-size: 4.1vw;
+    }
+    .navBar>ul {
+        padding-left: 0px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    .navBar>ul>li {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .contacto {
+        bottom: 20px;
+        width: 15%;
+        height: 65px;
+    }
+    .navBar>p {
+        display: none;
+    }
+    .navBar>img {
+        padding: 1.5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border: 2px solid;
+        border-radius: 50%;
+    }
+}

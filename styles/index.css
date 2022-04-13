@@ -1,5 +1,3 @@
-* {}
-
 body,
 html {
     margin: 0px;
@@ -9,20 +7,7 @@ html {
     background: linear-gradient(147deg, rgba(255, 255, 255, 1) 45%, rgba(30, 101, 140, 1) 100%);
 }
 
-@media (max-width: 900px) {
-    .conDaniel,
-    .preparador {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .preparador {
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-.aprueba {
+.cartelPrincipal {
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -30,21 +15,19 @@ html {
     justify-content: center;
 }
 
-.primeraLinea {
+.tituloCustom {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
     font-weight: bold;
 }
 
-.punto {
+.srApareceDespues {
     color: #1D658C;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .conDaniel {
-    font-size: 30px;
     font-weight: bold;
     margin-top: 15px;
     display: flex;
@@ -52,10 +35,40 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.danielGeohistoria {
+.impactDestacado {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 5px;
     margin-right: 5px;
-    position: relative;
-    top: -2px;
+}
+
+
+/* el pequeño */
+
+@media (max-width: 900px) {
+    .cartelPrincipal {
+        border: 1px solid red;
+    }
+    .tituloCustom {
+        font-size: 20vw;
+    }
+    .conDaniel {
+        flex-direction: row;
+        font-size: 5vw;
+    }
+}
+
+
+/* el grande */
+
+@media (min-width: 901px) {
+    .tituloCustom {
+        font-size: 100px;
+    }
+    .conDaniel {
+        font-size: 30px;
+    }
+    .impactDestacado {
+        position: relative;
+        top: -2px;
+    }
 }
