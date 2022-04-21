@@ -108,9 +108,9 @@ a {
         padding-right: 2%;
     }
     .contacto {
-        bottom: 20px;
+        bottom: 40px;
         width: 15%;
-        height: 65px;
+        height: 5vw;
     }
     .navBar>p {
         display: none;
