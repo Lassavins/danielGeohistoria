@@ -21,6 +21,10 @@ html {
     font-weight: bold;
 }
 
+.tituloCustom {
+    font-size: 100px;
+}
+
 .srApareceDespues {
     color: #1D658C;
     font-family: 'Times New Roman', Times, serif;
@@ -48,12 +52,43 @@ html {
     flex-direction: row;
 }
 
+.opcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(244, 250, 255, 0.494);
+    text-align: center;
+    height: 25vh;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    transition: all 0.2s ease-in;
+}
+
+.opcion:hover {
+    background-color: white;
+    transition: all 0.2s ease-in;
+}
+
+.opcion>a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+.opcion>a>img {
+    width: 10vh;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+
 
 /* el pequeño */
 
-@media (max-width: 768px) {
+@media (max-width: 846px) {
     .tituloCustom {
-        font-size: 20vw;
+        font-size: 85px;
     }
     .conDaniel {
         flex-direction: column;
@@ -61,50 +96,37 @@ html {
         font-size: 5vw;
     }
     .cartelPrincipal {
-        position: relative;
-        top: -70px;
+        height: 40%;
+        justify-content: end;
+    }
+    .opciones {
+        justify-content: center;
+        bottom: 20px;
+    }
+    .opcion {
+        height: 20%;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        padding: 2%;
+        margin-left: 0.5px;
+        margin-right: 0.5px;
+    }
+    .contacto {
+        bottom: 28vh;
+        width: 20%;
+        height: 60px;
     }
 }
 
 
 /* el grande */
 
-@media (min-width: 768px) {
-    .tituloCustom {
-        font-size: 100px;
-    }
+@media (min-width: 846px) {
     .conDaniel {
         font-size: 30px;
     }
     .impactDestacado {
         position: relative;
         top: -2px;
-    }
-    .opcion {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: rgba(244, 250, 255, 0.494);
-        text-align: center;
-        height: 25vh;
-        width: 20%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        transition: all 0.2s ease-in;
-    }
-    .opcion:hover {
-        background-color: white;
-        transition: all 0.2s ease-in;
-    }
-    .opcion>a {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: larger;
-    }
-    .opcion>a>img {
-        width: 10vh;
-        padding-bottom: 10px;
-        margin-top: 25px;
     }
 }
