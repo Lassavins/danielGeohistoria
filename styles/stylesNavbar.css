@@ -13,7 +13,7 @@ a {
 /* NAVBAR */
 
 .navBar {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     display: flex;
     flex-direction: row;
 }

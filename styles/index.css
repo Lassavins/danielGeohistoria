@@ -39,7 +39,7 @@ html {
 }
 
 .impactDestacado {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -73,7 +73,7 @@ html {
 }
 
 .opcion>a {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: larger;
 }
 
@@ -130,7 +130,7 @@ html {
     }
     .impactDestacado {
         position: relative;
-        top: -2px;
+        top: -8px;
     }
     .opciones {
         position: absolute;
