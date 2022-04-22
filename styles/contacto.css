@@ -26,13 +26,22 @@ html {
 }
 
 .enviar {
-    font-family: 'Anton', sans-serif;
-    font-size: 20px;
+    display: flex;
+    align-items: center;
     border-radius: 15px;
-    background-color: #f1dc71;
+    height: 45px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: #EBD672;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 25px;
+    height: 55px;
     border: none;
-    width: 100px;
-    height: 40px;
+    cursor: pointer;
 }
 
 .cajaTexto {
