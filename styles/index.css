@@ -129,4 +129,20 @@ html {
         position: relative;
         top: -2px;
     }
+    .opciones {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 30vh;
+    }
+    .opcion {
+        height: 25vh;
+        margin-top: 5vh;
+    }
+    .opcion:hover {
+        height: 30vh;
+        margin-top: 0vh;
+    }
 }
