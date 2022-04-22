@@ -1,0 +1,56 @@
+body,
+html {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(147deg, rgba(255, 255, 255, 1) 45%, rgba(30, 101, 140, 1) 100%);
+}
+
+.info {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info>h1 {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 30px;
+}
+
+.tituloCustom {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/* el pequeño */
+
+@media (max-width: 768px) {
+    .tituloCustom {
+        font-size: 20vw;
+    }
+    .conDaniel {
+        flex-direction: column;
+        text-align: center;
+        font-size: 5vw;
+    }
+}
+
+
+/* el grande */
+
+@media (min-width: 851px) {
+    .tituloCustom {
+        font-size: 100px;
+    }
+    .conDaniel {
+        font-size: 30px;
+    }
+    .impactDestacado {
+        position: relative;
+        top: -2px;
+    }
+}

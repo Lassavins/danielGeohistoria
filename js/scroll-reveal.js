@@ -28,3 +28,18 @@ sr.reveal('.srApareceUltimo', {
     interval: 100,
     delay: 1500
 })
+
+sr.reveal('.enunciados', {
+    duration: 1000,
+    origin: 'left',
+    distance: '50px',
+    interval: 100,
+    delay: 100
+})
+
+sr.reveal('.opcion', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '100px',
+    interval: 100
+})
