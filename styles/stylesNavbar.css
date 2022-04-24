@@ -15,6 +15,7 @@ html {
     height: 100vh;
     width: 100%;
     background: linear-gradient(147deg, rgba(255, 255, 255, 1) 25%, rgba(30, 101, 140, 1) 100%);
+    background-color: rgba(30, 101, 140, 1);
 }
 
 .info {
@@ -39,7 +40,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(244, 250, 255, 0.494);
+    background-color: #B5D3E0;
     text-align: center;
     height: 25vh;
     border-top-left-radius: 25px;
@@ -216,7 +217,7 @@ html {
         bottom: 20px;
     }
     .opcion {
-        height: 220px;
+        height: 150px;
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
         padding: 2%;
