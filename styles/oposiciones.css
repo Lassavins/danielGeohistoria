@@ -13,7 +13,6 @@ html {
 }
 
 .info>h1 {
-    font-family: 'Anton', sans-serif;
     margin-bottom: 30px;
 }
 
@@ -36,6 +35,9 @@ html {
         text-align: center;
         font-size: 5vw;
     }
+    .info>h1 {
+        font-family: 'Anton', sans-serif;
+    }
 }
 
 
@@ -51,5 +53,8 @@ html {
     .impactDestacado {
         position: relative;
         top: -2px;
+    }
+    .info>h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }

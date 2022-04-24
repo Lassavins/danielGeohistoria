@@ -39,7 +39,6 @@ html {
 }
 
 .impactDestacado {
-    font-family: 'Anton', sans-serif;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -73,12 +72,8 @@ html {
 }
 
 .opcion>a {
-    font-family: 'Anton', sans-serif;
     font-size: larger;
 }
-
-
-/* asd */
 
 .opcion>a>img {
     width: 10vh;
@@ -90,6 +85,10 @@ html {
 /* el pequeño */
 
 @media (max-width: 846px) {
+    .impactDestacado,
+    .opcion>a {
+        font-family: 'Anton', sans-serif;
+    }
     .tituloCustom {
         font-size: 85px;
     }
@@ -125,7 +124,7 @@ html {
     }
     .impactDestacado {
         position: relative;
-        top: -8px;
+        top: -3px;
     }
     .opciones {
         position: absolute;
@@ -142,5 +141,9 @@ html {
     .opcion:hover {
         height: 30vh;
         margin-top: 0vh;
+    }
+    .impactDestacado,
+    .opcion>a {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }

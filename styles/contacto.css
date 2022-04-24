@@ -14,7 +14,6 @@ html {
 }
 
 .info>h1 {
-    font-family: 'Anton', sans-serif;
     margin-bottom: 30px;
 }
 
@@ -33,7 +32,6 @@ html {
     padding-left: 17px;
     padding-right: 17px;
     background-color: #EBD672;
-    font-family: 'Anton', sans-serif;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
@@ -74,6 +72,12 @@ html {
         text-align: center;
         font-size: 5vw;
     }
+    .info>h1 {
+        font-family: 'Anton', sans-serif;
+    }
+    .enviar {
+        font-family: 'Anton', sans-serif;
+    }
 }
 
 
@@ -89,5 +93,11 @@ html {
     .impactDestacado {
         position: relative;
         top: -2px;
+    }
+    .info>h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .enviar {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }
