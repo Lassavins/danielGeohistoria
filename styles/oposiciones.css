@@ -5,6 +5,23 @@
     font-weight: bold;
 }
 
+table {
+    padding: 5%;
+}
+
+tr {
+    background-color: rgba(62, 124, 187, 0.335);
+}
+
+td {
+    padding: 1%;
+}
+
+.tablaTitulo {
+    font-weight: bold;
+    text-align: center;
+}
+
 
 /* el pequeño */
 

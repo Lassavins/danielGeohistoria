@@ -1,0 +1,17 @@
+.info {
+    justify-content: center;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 2.5%;
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 846px) {
+    iframe {
+        width: 90vw;
+        height: 25vh;
+    }
+}

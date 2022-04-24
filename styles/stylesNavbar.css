@@ -22,6 +22,7 @@ html {
     padding-left: 2.5%;
     padding-right: 2.5%;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 200px;
 }
 
 .info>h1 {
@@ -216,7 +217,7 @@ html {
     }
     .opciones {
         justify-content: center;
-        bottom: 20px;
+        bottom: 8px;
         position: fixed;
     }
     .opcion {
@@ -230,9 +231,6 @@ html {
     }
     .opcion>a {
         font-family: 'Anton', sans-serif;
-    }
-    .info {
-        padding-bottom: 250px;
     }
     .info>h1 {
         font-family: 'Anton', sans-serif;
