@@ -136,6 +136,9 @@ a {
         font-size: 60px;
     }
     .contacto {
+        position: fixed;
+        bottom: 25px;
+        left: 37.5%;
         width: 20%;
         height: 60px;
         margin-top: 5%;

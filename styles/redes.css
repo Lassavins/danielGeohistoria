@@ -58,13 +58,13 @@ html {
 @media (max-width: 846px) {
     .opciones {
         font-family: 'Anton', sans-serif;
-        font-size: 2.5vw;
+        font-size: 2.3vw;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 464px) {
     .opciones {
-        font-size: 3.5vw;
+        font-size: 3.4vw;
     }
 }
 
