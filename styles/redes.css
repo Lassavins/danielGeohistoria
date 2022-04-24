@@ -58,6 +58,7 @@ html {
 @media (max-width: 846px) {
     .opciones {
         font-family: 'Anton', sans-serif;
+        font-size: 14px;
     }
 }
 

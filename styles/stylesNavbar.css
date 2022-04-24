@@ -36,7 +36,8 @@ a {
     transition: all 0.5s;
 }
 
-.navBar>ul>li>a:hover {
+.navBar>ul>li>a:hover,
+.consejos:hover {
     color: #1D658C;
     transition: all 0.5s;
 }
@@ -90,6 +91,11 @@ a {
     }
     h1 {
         font-size: 100px;
+    }
+    .consejos {
+        position: relative;
+        top: 27px;
+        right: -10px;
     }
 }
 
