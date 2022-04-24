@@ -58,6 +58,7 @@ html {
 
 .opcion>a {
     font-size: larger;
+    color: black;
 }
 
 .opcion>a>img {
