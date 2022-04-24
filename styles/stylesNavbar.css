@@ -14,12 +14,14 @@ html {
     margin: 0px;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(147deg, rgba(255, 255, 255, 1) 25%, rgba(30, 101, 140, 1) 100%);
-    background-color: rgba(30, 101, 140, 1);
+    /* background: rgba(30, 101, 140, 1); */
+    background-image: linear-gradient(147deg, rgba(255, 255, 255, 1) 25%, rgba(30, 101, 140, 1) 100%);
+    overflow: scroll;
 }
 
 .info {
-    padding: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -180,6 +182,10 @@ html {
 /* el pequeño */
 
 @media (max-width: 846px) {
+    body {
+        background-color: #1D658C;
+        height: 200%;
+    }
     .navBar {
         flex-direction: column;
         align-items: center;
@@ -215,6 +221,7 @@ html {
     .opciones {
         justify-content: center;
         bottom: 20px;
+        position: fixed;
     }
     .opcion {
         height: 150px;
