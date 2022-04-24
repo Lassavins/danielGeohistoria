@@ -1,55 +1,5 @@
-body,
-html {
-    margin: 0px;
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(147deg, rgba(255, 255, 255, 1) 25%, rgba(30, 101, 140, 1) 100%);
-}
-
-.fila {
-    display: flex;
-    flex-direction: row;
-}
-
-.columna {
-    width: 40%;
-    height: 25vh;
-    padding: 4%;
-    margin-top: 3vh;
-    background-color: rgba(255, 255, 255, 0.494);
-    transition: all 0.5s;
-    justify-content: center;
-    text-align: center;
-}
-
-.columna:hover {
-    background-color: white;
-    transition: all 0.5s;
-    width: 43%;
-}
-
-.izquierda:hover {
-    margin-right: 1%;
-}
-
-.derecha:hover {
-    margin-left: -3%;
-}
-
-.izquierda {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin-right: 4%;
-}
-
-.derecha {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-.imgRedes {
-    width: 15vh;
-    padding: 6%;
+.opcion {
+    width: 23%;
 }
 
 
