@@ -18,6 +18,8 @@ html {
     margin-top: 3vh;
     background-color: rgba(255, 255, 255, 0.494);
     transition: all 0.5s;
+    justify-content: center;
+    text-align: center;
 }
 
 .columna:hover {
@@ -43,6 +45,11 @@ html {
 .derecha {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+
+.imgRedes {
+    width: 15vh;
+    padding: 6%;
 }
 
 
