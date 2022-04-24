@@ -2,11 +2,17 @@
     width: 23%;
 }
 
+.quienSoy {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /* el pequeño */
 
 @media (max-width: 846px) {
-    .opciones {
+    .opciones,
+    .quienSoy>h1 {
         font-family: 'Anton', sans-serif;
         font-size: 2.3vw;
     }
@@ -22,7 +28,8 @@
 /* el grande */
 
 @media (min-width: 846px) {
-    .opciones {
+    .opciones,
+    .quienSoy>h1 {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }

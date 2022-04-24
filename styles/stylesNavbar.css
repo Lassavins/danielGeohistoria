@@ -17,6 +17,15 @@ html {
     background: linear-gradient(147deg, rgba(255, 255, 255, 1) 25%, rgba(30, 101, 140, 1) 100%);
 }
 
+.info {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info>h1 {
+    margin-bottom: 30px;
+}
+
 .opciones {
     position: absolute;
     bottom: 0px;
@@ -161,6 +170,9 @@ html {
     .opcion>a {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
+    .info>h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 }
 
 
@@ -212,6 +224,9 @@ html {
         margin-right: 0.5px;
     }
     .opcion>a {
+        font-family: 'Anton', sans-serif;
+    }
+    .info>h1 {
         font-family: 'Anton', sans-serif;
     }
 }
