@@ -40,7 +40,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #B5D3E0;
+    background-color: rgba(244, 250, 255, 0.494);
     text-align: center;
     height: 25vh;
     border-top-left-radius: 25px;
@@ -223,6 +223,7 @@ html {
         padding: 2%;
         margin-left: 0.5px;
         margin-right: 0.5px;
+        background-color: #E9EEF2;
     }
     .opcion>a {
         font-family: 'Anton', sans-serif;
