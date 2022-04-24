@@ -230,6 +230,9 @@ html {
     .opcion>a {
         font-family: 'Anton', sans-serif;
     }
+    .info {
+        padding-bottom: 250px;
+    }
     .info>h1 {
         font-family: 'Anton', sans-serif;
     }
