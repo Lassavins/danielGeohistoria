@@ -36,7 +36,7 @@
 }
 
 .opcion {
-    width: 33%;
+    width: 24%;
 }
 
 
@@ -57,9 +57,6 @@
     .cartelPrincipal {
         height: 40%;
         justify-content: end;
-    }
-    .opLarga {
-        font-size: 3.5vw;
     }
 }
 

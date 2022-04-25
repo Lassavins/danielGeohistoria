@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.opcion {
+    width: 33%;
+}
+
 iframe {
     margin-top: 2.5%;
     width: 560px;
