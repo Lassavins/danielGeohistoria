@@ -214,7 +214,7 @@ html {
         font-family: 'Anton', sans-serif;
     }
     .navBar>ul {
-        padding-left: 0px;
+        padding-left: 5%;
         margin: 0 auto;
         justify-content: center;
         width: 100%;
