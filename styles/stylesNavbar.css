@@ -45,6 +45,7 @@ html {
     background-color: rgba(244, 250, 255, 0.494);
     text-align: center;
     height: 25vh;
+    width: 24%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     transition: all 0.2s ease-in;
@@ -101,7 +102,7 @@ html {
     transition: all 0.5s;
 }
 
-.navBar>a>img {
+.navBar>ul>li>a>img {
     height: 70px;
 }
 
@@ -149,11 +150,6 @@ html {
     h1 {
         font-size: 100px;
     }
-    .consejos {
-        position: relative;
-        top: 27px;
-        right: -10px;
-    }
     .opciones {
         position: absolute;
         bottom: 0px;
@@ -184,7 +180,7 @@ html {
 
 @media (max-width: 846px) {
     .navBar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         white-space: nowrap;
         font-size: 4.1vw;
@@ -197,15 +193,16 @@ html {
         justify-content: center;
         width: 100%;
         flex-direction: row;
+        border: 1px solid red;
     }
     .navBar>ul>li {
         padding-left: 2%;
         padding-right: 2%;
     }
-    .navBar>p {
+    .navBar>ul>li>p {
         display: none;
     }
-    .navBar>a>img {
+    .navBar>ul>li>a>img {
         padding: 1.5%;
         margin-top: 3%;
         margin-bottom: 3%;
