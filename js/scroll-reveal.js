@@ -37,7 +37,7 @@ sr.reveal('.enunciados', {
     delay: 100
 })
 
-sr.reveal('.opcion', {
+sr.reveal('.opcionIndex', {
     duration: 1000,
     origin: 'bottom',
     distance: '100px',
