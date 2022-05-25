@@ -1,6 +1,8 @@
 .info {
     justify-content: center;
     text-align: center;
+    padding: 0px;
+    margin: 15px;
 }
 
 iframe {
@@ -12,6 +14,6 @@ iframe {
 @media (max-width: 846px) {
     iframe {
         width: 90vw;
-        height: 25vh;
+        height: 40vh;
     }
 }

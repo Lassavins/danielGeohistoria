@@ -50,4 +50,7 @@ td {
         position: relative;
         top: -2px;
     }
+    .info {
+        padding-bottom: 20%;
+    }
 }
