@@ -29,6 +29,14 @@ sr.reveal('.srApareceUltimo', {
     delay: 1500
 })
 
+sr.reveal('.redes', {
+    duration: 1000,
+    origin: 'top',
+    distance: '0px',
+    interval: 100,
+    delay: 2000
+})
+
 sr.reveal('.enunciados', {
     duration: 1000,
     origin: 'left',
