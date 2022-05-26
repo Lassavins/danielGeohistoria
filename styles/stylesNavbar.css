@@ -23,12 +23,16 @@ html {
     overflow: scroll;
 }
 
-.info,
-.cartelPrincipal {
+.info {
     padding-left: 2.5%;
     padding-right: 2.5%;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 200px;
+    animation-duration: 2s;
+    animation-name: aparece;
+}
+
+.cartelPrincipal {
     animation-duration: 2s;
     animation-name: aparece;
 }
