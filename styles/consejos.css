@@ -17,4 +17,7 @@ iframe {
         width: 90vw;
         height: 40vh;
     }
+    .info {
+        padding-bottom: 30%;
+    }
 }
