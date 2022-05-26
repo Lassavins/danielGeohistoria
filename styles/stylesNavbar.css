@@ -32,11 +32,6 @@ html {
     animation-name: aparece;
 }
 
-.cartelPrincipal {
-    animation-duration: 2s;
-    animation-name: aparece;
-}
-
 @keyframes aparece {
     from {
         opacity: 0;
