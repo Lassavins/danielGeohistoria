@@ -16,23 +16,32 @@
     font-weight: bold;
 }
 
+.interiorForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campos {
+    padding-right: 2.5%;
+}
+
+.interiorFormMensaje {
+    padding-left: 2.5%;
+}
+
 .enviar {
     display: flex;
     color: black;
-    align-items: center;
     border-radius: 15px;
-    height: 45px;
-    padding-left: 17px;
-    padding-right: 17px;
+    height: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #EBD672;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 10px;
     font-size: 25px;
-    height: 55px;
     border: none;
     cursor: pointer;
+    margin-left: 5%;
 }
 
 .cajaTexto {
@@ -43,6 +52,11 @@
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 3px;
+}
+
+.cajaMensaje {
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
 .formulario {
@@ -70,6 +84,13 @@
     }
     .enviar {
         font-family: 'Anton', sans-serif;
+    }
+    .interiorForm {
+        flex-direction: column;
+    }
+    .campos,
+    .interiorFormMensaje {
+        padding: 0;
     }
 }
 

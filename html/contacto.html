@@ -57,14 +57,29 @@
 
 
     <div class="info">
-        <h1>Empecemos.</h1>
-        Escríbeme y me pondré en contacto contigo lo antes posible.
+        <h1>Empecemos</h1>
+        Escríbeme y me pondré en contacto contigo lo antes posible. Asegúrate de poner bien tu dirección de correo para que pueda responderte. También puedes dejar tu teléfono en el mensaje si lo prefieres.
 
-        <form action="mailto:dhprofesor@gmail.com" method="GET" enctype="text/plain" class="formulario">
-            <strong>Nombre</strong> <br>
-            <input name="subject" type="text" class="cajaTexto" /> <br> <strong>Teléfono</strong> <br>
-            <input name="body" class="cajaTexto"></textarea> <br>
-            <input type="submit" value="ESCRIBIR" class="enviar" />
+        <form action="mail_handler.php" method="post" class="formulario">
+
+            <div class="interiorForm">
+                <div class="campos">
+                    <strong>Nombre</strong> <br>
+                    <input type="text" name="first_name" class="cajaTexto"> <br>
+                    <strong>Apellidos</strong> <br>
+                    <input type="text" name="last_name" class="cajaTexto"><br>
+                    <strong>Email</strong> <br>
+                    <input type="text" name="email" class="cajaTexto"><br>
+                </div>
+                <div class="interiorFormMensaje">
+                    <strong>Mensaje:</strong>
+                    <br><textarea rows="10" name="message" cols="30" class="cajaMensaje"></textarea><br>
+
+                </div>
+                <input type="submit" name="submit" value="ENVIAR" class="enviar">
+            </div>
+
+
         </form>
     </div>
     <div class="opciones">
