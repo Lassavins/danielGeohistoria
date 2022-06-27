@@ -30,6 +30,7 @@ html {
     padding-bottom: 200px;
     animation-duration: 2s;
     animation-name: aparece;
+    text-align: justify;
 }
 
 @keyframes aparece {
